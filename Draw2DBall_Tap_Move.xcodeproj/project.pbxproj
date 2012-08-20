@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3644C0815E1EF12002F2D41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3644C0715E1EF12002F2D41 /* UIKit.framework */; };
+		E3644C0A15E1EF12002F2D41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3644C0915E1EF12002F2D41 /* Foundation.framework */; };
+		E3644C0C15E1EF12002F2D41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3644C0B15E1EF12002F2D41 /* CoreGraphics.framework */; };
+		E3644C1215E1EF12002F2D41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3644C1015E1EF12002F2D41 /* InfoPlist.strings */; };
+		E3644C1415E1EF12002F2D41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3644C1315E1EF12002F2D41 /* main.m */; };
+		E3644C1815E1EF12002F2D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3644C1715E1EF12002F2D41 /* AppDelegate.m */; };
+		E3644C1B15E1EF12002F2D41 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3644C1915E1EF12002F2D41 /* MainStoryboard.storyboard */; };
+		E3644C1E15E1EF12002F2D41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3644C1D15E1EF12002F2D41 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3644C0315E1EF12002F2D41 /* Draw2DBall_Tap_Move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw2DBall_Tap_Move.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3644C0715E1EF12002F2D41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3644C0915E1EF12002F2D41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3644C0B15E1EF12002F2D41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3644C0F15E1EF12002F2D41 /* Draw2DBall_Tap_Move-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Draw2DBall_Tap_Move-Info.plist"; sourceTree = "<group>"; };
+		E3644C1115E1EF12002F2D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3644C1315E1EF12002F2D41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3644C1515E1EF12002F2D41 /* Draw2DBall_Tap_Move-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Draw2DBall_Tap_Move-Prefix.pch"; sourceTree = "<group>"; };
+		E3644C1615E1EF12002F2D41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3644C1715E1EF12002F2D41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3644C1A15E1EF12002F2D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E3644C1C15E1EF12002F2D41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3644C1D15E1EF12002F2D41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3644C0015E1EF12002F2D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3644C0815E1EF12002F2D41 /* UIKit.framework in Frameworks */,
+				E3644C0A15E1EF12002F2D41 /* Foundation.framework in Frameworks */,
+				E3644C0C15E1EF12002F2D41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3644BF815E1EF12002F2D41 = {
+			isa = PBXGroup;
+			children = (
+				E3644C0D15E1EF12002F2D41 /* Draw2DBall_Tap_Move */,
+				E3644C0615E1EF12002F2D41 /* Frameworks */,
+				E3644C0415E1EF12002F2D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3644C0415E1EF12002F2D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3644C0315E1EF12002F2D41 /* Draw2DBall_Tap_Move.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3644C0615E1EF12002F2D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3644C0715E1EF12002F2D41 /* UIKit.framework */,
+				E3644C0915E1EF12002F2D41 /* Foundation.framework */,
+				E3644C0B15E1EF12002F2D41 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3644C0D15E1EF12002F2D41 /* Draw2DBall_Tap_Move */ = {
+			isa = PBXGroup;
+			children = (
+				E3644C1615E1EF12002F2D41 /* AppDelegate.h */,
+				E3644C1715E1EF12002F2D41 /* AppDelegate.m */,
+				E3644C1915E1EF12002F2D41 /* MainStoryboard.storyboard */,
+				E3644C1C15E1EF12002F2D41 /* ViewController.h */,
+				E3644C1D15E1EF12002F2D41 /* ViewController.m */,
+				E3644C0E15E1EF12002F2D41 /* Supporting Files */,
+			);
+			path = Draw2DBall_Tap_Move;
+			sourceTree = "<group>";
+		};
+		E3644C0E15E1EF12002F2D41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3644C0F15E1EF12002F2D41 /* Draw2DBall_Tap_Move-Info.plist */,
+				E3644C1015E1EF12002F2D41 /* InfoPlist.strings */,
+				E3644C1315E1EF12002F2D41 /* main.m */,
+				E3644C1515E1EF12002F2D41 /* Draw2DBall_Tap_Move-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3644C0215E1EF12002F2D41 /* Draw2DBall_Tap_Move */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3644C2115E1EF12002F2D41 /* Build configuration list for PBXNativeTarget "Draw2DBall_Tap_Move" */;
+			buildPhases = (
+				E3644BFF15E1EF12002F2D41 /* Sources */,
+				E3644C0015E1EF12002F2D41 /* Frameworks */,
+				E3644C0115E1EF12002F2D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Draw2DBall_Tap_Move;
+			productName = Draw2DBall_Tap_Move;
+			productReference = E3644C0315E1EF12002F2D41 /* Draw2DBall_Tap_Move.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3644BFA15E1EF12002F2D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = sonia;
+			};
+			buildConfigurationList = E3644BFD15E1EF12002F2D41 /* Build configuration list for PBXProject "Draw2DBall_Tap_Move" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3644BF815E1EF12002F2D41;
+			productRefGroup = E3644C0415E1EF12002F2D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3644C0215E1EF12002F2D41 /* Draw2DBall_Tap_Move */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3644C0115E1EF12002F2D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3644C1215E1EF12002F2D41 /* InfoPlist.strings in Resources */,
+				E3644C1B15E1EF12002F2D41 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3644BFF15E1EF12002F2D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3644C1415E1EF12002F2D41 /* main.m in Sources */,
+				E3644C1815E1EF12002F2D41 /* AppDelegate.m in Sources */,
+				E3644C1E15E1EF12002F2D41 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3644C1015E1EF12002F2D41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3644C1115E1EF12002F2D41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3644C1915E1EF12002F2D41 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3644C1A15E1EF12002F2D41 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3644C1F15E1EF12002F2D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3644C2015E1EF12002F2D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3644C2215E1EF12002F2D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draw2DBall_Tap_Move/Draw2DBall_Tap_Move-Prefix.pch";
+				INFOPLIST_FILE = "Draw2DBall_Tap_Move/Draw2DBall_Tap_Move-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3644C2315E1EF12002F2D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Draw2DBall_Tap_Move/Draw2DBall_Tap_Move-Prefix.pch";
+				INFOPLIST_FILE = "Draw2DBall_Tap_Move/Draw2DBall_Tap_Move-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3644BFD15E1EF12002F2D41 /* Build configuration list for PBXProject "Draw2DBall_Tap_Move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3644C1F15E1EF12002F2D41 /* Debug */,
+				E3644C2015E1EF12002F2D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3644C2115E1EF12002F2D41 /* Build configuration list for PBXNativeTarget "Draw2DBall_Tap_Move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3644C2215E1EF12002F2D41 /* Debug */,
+				E3644C2315E1EF12002F2D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3644BFA15E1EF12002F2D41 /* Project object */;
+}
