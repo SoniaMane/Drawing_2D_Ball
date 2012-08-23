@@ -6,8 +6,10 @@
 //  Copyright (c) 2012 sonia. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@class SolidCircle;
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet SolidCircle *solidCircle;
 
 @end

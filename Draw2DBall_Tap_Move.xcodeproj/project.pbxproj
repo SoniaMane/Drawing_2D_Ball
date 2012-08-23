@@ -15,6 +15,7 @@
 		E3644C1815E1EF12002F2D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3644C1715E1EF12002F2D41 /* AppDelegate.m */; };
 		E3644C1B15E1EF12002F2D41 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3644C1915E1EF12002F2D41 /* MainStoryboard.storyboard */; };
 		E3644C1E15E1EF12002F2D41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3644C1D15E1EF12002F2D41 /* ViewController.m */; };
+		E3644C2815E1EF78002F2D41 /* SolidCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = E3644C2715E1EF78002F2D41 /* SolidCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		E3644C1A15E1EF12002F2D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E3644C1C15E1EF12002F2D41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E3644C1D15E1EF12002F2D41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3644C2615E1EF78002F2D41 /* SolidCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidCircle.h; sourceTree = "<group>"; };
+		E3644C2715E1EF78002F2D41 /* SolidCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolidCircle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +80,11 @@
 		E3644C0D15E1EF12002F2D41 /* Draw2DBall_Tap_Move */ = {
 			isa = PBXGroup;
 			children = (
+				E3D79CA015E3302000DFDDDE /* Resources */,
+				E3644C2515E1EF56002F2D41 /* ViewControllers */,
+				E3644C2415E1EF42002F2D41 /* MyView */,
 				E3644C1615E1EF12002F2D41 /* AppDelegate.h */,
 				E3644C1715E1EF12002F2D41 /* AppDelegate.m */,
-				E3644C1915E1EF12002F2D41 /* MainStoryboard.storyboard */,
-				E3644C1C15E1EF12002F2D41 /* ViewController.h */,
-				E3644C1D15E1EF12002F2D41 /* ViewController.m */,
 				E3644C0E15E1EF12002F2D41 /* Supporting Files */,
 			);
 			path = Draw2DBall_Tap_Move;
@@ -96,6 +99,32 @@
 				E3644C1515E1EF12002F2D41 /* Draw2DBall_Tap_Move-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3644C2415E1EF42002F2D41 /* MyView */ = {
+			isa = PBXGroup;
+			children = (
+				E3644C2615E1EF78002F2D41 /* SolidCircle.h */,
+				E3644C2715E1EF78002F2D41 /* SolidCircle.m */,
+			);
+			name = MyView;
+			sourceTree = "<group>";
+		};
+		E3644C2515E1EF56002F2D41 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3644C1C15E1EF12002F2D41 /* ViewController.h */,
+				E3644C1D15E1EF12002F2D41 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E3D79CA015E3302000DFDDDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3644C1915E1EF12002F2D41 /* MainStoryboard.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +193,7 @@
 				E3644C1415E1EF12002F2D41 /* main.m in Sources */,
 				E3644C1815E1EF12002F2D41 /* AppDelegate.m in Sources */,
 				E3644C1E15E1EF12002F2D41 /* ViewController.m in Sources */,
+				E3644C2815E1EF78002F2D41 /* SolidCircle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +309,7 @@
 				E3644C2315E1EF12002F2D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

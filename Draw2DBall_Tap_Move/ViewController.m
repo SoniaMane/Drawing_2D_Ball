@@ -7,28 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "SolidCircle.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
+@synthesize solidCircle;
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    UITouch * touch = [touches anyObject];
+    CGPoint location = [touch locationInView:self.view];
+    solidCircle.center = location;
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+
+    UITouch *touch = [touches anyObject];
+    CGPoint location = [touch locationInView:self.view];
+    solidCircle.center = location;
+}
 @end
