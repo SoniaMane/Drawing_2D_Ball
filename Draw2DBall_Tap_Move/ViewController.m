@@ -11,7 +11,7 @@
 
 @interface ViewController ()
 @end
-
+//testing git
 @implementation ViewController
 @synthesize solidCircle;
 
